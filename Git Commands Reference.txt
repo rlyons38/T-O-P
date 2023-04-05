@@ -9,6 +9,9 @@ INITIAL CONFIGURATION COMMANDS:
     git config --get user.email rlyons@live.co.uk
     git config --get user.name "Ross Lyons"
 
+- Sets VSCode as the default message editor if you ommit the '-m' switch from a git commit command
+    git config --global core.editor "code --wait"
+
 I see these as environmental variables that are set and used going forwards for all git interactions.
 
 CREATING SSH KEY TO USE WITH GITHUB:
