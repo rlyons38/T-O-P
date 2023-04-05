@@ -34,3 +34,27 @@ CHECKING LOCAL FILES FOR GIT STATUS:
 
 This will check whether there are new files, amendments or deletions to sync to Github. This will state whether they have been "staged" locally or not, ready to be synced.
 Only "staged" files locally can be synced up to Github, non-staged files will not be synced up.
+
+STAGING FILES READY TO SYNC:
+
+- Command to get files ready to be synced up to Github
+    git add [FILENAME]
+    git add --all
+
+This will add the named files to the staging area ready to be commited. This is like a waiting room for the files and will show "green" when running the command 'git status'.
+You can alternatively use the '--all' switch to add every change to the staging area, it is advised not to do this and be specific about what you are staging.
+
+COMMITING CHANGES TO GITHUB:
+
+- Command to commit changes
+    git commit -m "comment on changes made"
+
+This will commit the changes that are in the staging area. Using the '-m' switch adds a comment that is required for a commit to finish.
+Smaller, descriptive commits are better than waiting for many changes until pushing a commit. The many comments will help paint a picture of changes made.
+
+VIEW LOGS FROM GIT:
+
+- Command to view details on git commands and who did them
+    git log
+
+This will show details on commits, the author and when it was actioned.
