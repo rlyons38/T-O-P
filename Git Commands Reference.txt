@@ -1,0 +1,36 @@
+INITIAL CONFIGURATION COMMANDS:
+
+- Sets a local reference point of the user email address and name to use
+    git config --get user.email rlyons@live.co.uk
+    git config --get user.name "Ross Lyons"
+
+I see these as environmental variables that are set and used going forwards for all git interactions.
+
+CREATING SSH KEY TO USE WITH GITHUB:
+
+- Command to create a local SSH key
+    ssh-keygen -t ed25519 -C rlyons@live.co.uk
+
+- Command to reveal the key to copy
+    cat C:\Users\rlyon/.ssh/id_ed25519.pub
+
+- On the Github website, enter the user settings and navigate to the "SSH and GPG keys" page
+- Click the green "New SSH Key" button, give it a memorable name and paste in the key copied earlier
+
+The SSH key is generated in a default location if you do not provide one, this is in the user-profile and in a hidden folder labelled ".ssh".
+
+CLONING A REMOTE REPO TO LOCAL STORAGE:
+
+- Copy connection URL from the Github website repo page. MUST be SSH URL.
+- Clone command to copy a repo from Github.
+    git clone git@github.com:rlyons38/T-O-P.git
+
+This creates a local copy of the git repo and creates a subfolder with the name of the repo to store all files in. There is no need to create a subfolder with the repo name in advance.
+
+CHECKING LOCAL FILES FOR GIT STATUS:
+
+- Command to check the git status of local files
+    git status
+
+This will check whether there are new files, amendments or deletions to sync to Github. This will state whether they have been "staged" locally or not, ready to be synced.
+Only "staged" files locally can be synced up to Github, non-staged files will not be synced up.
