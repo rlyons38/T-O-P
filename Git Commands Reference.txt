@@ -58,3 +58,12 @@ VIEW LOGS FROM GIT:
     git log
 
 This will show details on commits, the author and when it was actioned.
+
+SYNC CHANGES TO GITHUB:
+
+- Command to push the changes from the local storage to the Github repo
+    git push
+    git push origin main
+
+This command syncs the commited changes from the local storage to the repo stored on Github. This is the final step to syncing any changes.
+You can be more specific about the push using the 'origin main' additions, but since we are only working with one branch this is not needed. More will be learned on this later.
