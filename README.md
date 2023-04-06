@@ -4,4 +4,4 @@ This is my personal **T**he **O**din **P**roject repo where I will be going thro
 
 ## Fundamentals
 
-I have created a fundamentals folder to contain all the lessons and resources needed when working through the fundamentals course of **TOP**.
+I have created a fundamentals folder to contain all the lessons and resources needed when working through the fundamentals course of **TOP**. An information dump that will be great to refer back to will be on the [Resources](/Fundamentals/HTML/ReferencePoints/Resources.html) page, linking useful tools and pages.
