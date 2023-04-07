@@ -12,6 +12,6 @@ A list of projects from the fundamentals course, source location and live page l
 
 The recipe's site project focused on building on the HTML taught and putting it all together, the idea was for a main page with linked pages for each recipe, pictures and content. Nothing fancy in the inital commits, just HTML.
 
-Code: [Recipe Project](./Fundamentals/HTML/Recipe%20Project/)
+Code: [Recipe Project](https://github.com/rlyons38/T-O-P/tree/main/Fundamentals/HTML/Recipe%20Project)
 
-Live page: [Recipe Webpage](https://rlyons38.github.io/T-O-P/)
+Live page: [Recipe Webpage](https://rlyons38.github.io/T-O-P/Fundamentals/HTML/Recipe%20Project/)
