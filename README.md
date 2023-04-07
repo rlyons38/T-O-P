@@ -6,7 +6,7 @@ This is my personal "**T**he **O**din **P**roject" repo where I will be going th
 
 I have created a fundamentals folder to contain all the lessons and resources needed when working through the fundamentals course of **TOP**. An information dump that will be great to refer back to will be on the [Resources](/Fundamentals/HTML/ReferencePoints/Resources.html) page, linking useful tools and pages.
 
-A list of projects from the fundamentals course, source location and live page links will be listed here:
+A list of projects from the fundamentals course, source location and live page links will be listed below.
 
 ### Recipe's Site
 
