@@ -8,8 +8,11 @@
 </head>
 <body>
     
-    <!-- headings go from h1 through to h6 -->
-    <h1>T-O-P</h1>
+    <!--
+        Headings go from h1 through to h6
+        'id = "title"' - this is a HTML attribute that is used for identifying parts or sections of HTML. Most commonly it is referred to in the CSS files for styling.
+    -->
+    <h1 id="title">T-O-P</h1>
 
     <!--
         "<p></p>" - Paragraph tag. Use it to identify a block of text.
@@ -18,28 +21,33 @@
         "<i></i>" - Italic tag. Used only to mark text as italic.
         "<em></em>" - Emphasis tag. Use it to force the text inside these tags to be italic and marked with emphasis.
     -->
-    <p>
-        <b>T</b>he <b>O</b>din <b>P</b>roject is a self-paced learning course that I will be using to refresh my knowledge in HTML and CSS, then expanding it with Javascript. Whilst my main focus is not web-development, learning these languages and skills are sure to be valuable in my career <em>at some point</em>.
-    </p>
+    <div class="intro">
+        <p>
+            <b>T</b>he <b>O</b>din <b>P</b>roject is a self-paced learning course that I will be using to refresh my knowledge in HTML and CSS, then expanding it with Javascript. Whilst my main focus is not web-development, learning these languages and skills are sure to be valuable in my career <em>at some point</em>.
+        </p>
 
-    <p>
-        This simple page will serve as a demonstration of simple tags and will be self-documenting, utilising comments thoroughly and used as a reference point for myself. Some of the basic tags are listed below:
-    </p>
+        <p>
+            This simple page will serve as a demonstration of simple tags and will be self-documenting, utilising comments thoroughly and used as a reference point for myself. Some of the basic tags are listed below:
+        </p>
+    </div>
 
+    <div class="lists">
     <!--
         "<ul></ul>" - These tags are used to create an 'un-ordered' list; bullet points.
         "<ol></ol>" - These tags are used to create an 'ordered' list; a numbered list.
 
         "<li></li>" - Both lists use this tag to denote a separate item in the list.
     -->
-    <p>
-        <ul>
-            <li>&lt;p&gt;&lt;/p&gt; - These tags are used to create paragraphs and separate blocks of text.</li>
-            <li>&lt;strong&gt;&lt;/strong&gt; - These tags are used to add importance to specific text, whilst making it appear bold.</li>
-            <li>&lt;em&gt;&lt;/em&gt; - These tags are used to add emphasis to specific text, whilst making it appear italic.</li>
-        </ul>
-    </p>
+        <p>
+            <ul>
+                <li>&lt;p&gt;&lt;/p&gt; - These tags are used to create paragraphs and separate blocks of text.</li>
+                <li>&lt;strong&gt;&lt;/strong&gt; - These tags are used to add importance to specific text, whilst making it appear bold.</li>
+                <li>&lt;em&gt;&lt;/em&gt; - These tags are used to add emphasis to specific text, whilst making it appear italic.</li>
+            </ul>
+        </p>
+    </div>
 
+    <div class="links">
     <!--
         "<a></a>" - This is an anchor tag, and is used to link text to other areas of the same page or other web-pages entirely.
         
@@ -49,12 +57,13 @@
         
         Additionally, adding the 'href' attribute will now add the hyperlink styling be default, making it look like we expect a hyperlink to look like. Without this attribute, an anchor will default to looking like standard text.
     -->
-    <p>
-        For more information and a much more detailed list of available tags and their uses, a previous TOP lesson linked a handy website to use as a reference point: <a href="https://devdocs.io/">DevDocs.io</a>.
-    </p>
-    <p>
-        The DevDocs reference page has a full list of HTML attributes, elements and even lists obsolete content so you can make sure you are not using something that is or will be out of support in the near future. A full list of useful links will be on my <a href="../ReferencePoints/Resources.html">Resources</a> page.
-    </p>
+        <p>
+            For more information and a much more detailed list of available tags and their uses, a previous TOP lesson linked a handy website to use as a reference point: <a href="https://devdocs.io/">DevDocs.io</a>.
+        </p>
+        <p>
+            The DevDocs reference page has a full list of HTML attributes, elements and even lists obsolete content so you can make sure you are not using something that is or will be out of support in the near future. A full list of useful links will be on my <a href="../ReferencePoints/Resources.html">Resources</a> page.
+        </p>
+    </div>
     
     <!--
         "<img>" - This is an image tag. It is different from other tags in the way that it has no closing tag; this is called self-closing.
