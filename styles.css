@@ -1,6 +1,7 @@
-.body {
+* {
     background-color: #393E41;
     font-family: Tahoma, Verdana, Geneva,sans-serif;
     font-size: 18px;
-    color: #6D98BA;   
+    color: #6D98BA;
+    margin: 0 auto;
 } 
