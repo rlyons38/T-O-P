@@ -4,6 +4,15 @@
     font-size: 18px;
     color: #6D98BA;
     margin: 0px auto;
+
+
+    /* Temporary border to envisage spaces. To help with learning layouts and flex-box tools. */
+    
+    /*
+    border-style: solid;
+    border-width: medium;
+    border-color: coral;
+    */
 }
 
 body {
@@ -15,8 +24,16 @@ body {
     text-align: center;
     text-decoration-line: underline;
     margin: 15px auto;
+
+    border-style: solid;
+    border-width: medium;
+    border-color: coral;
 }
 
-.intro {
+body div {
     padding: 1%;
+
+    border-style: solid;
+    border-width: medium;
+    border-color: coral;
 }
