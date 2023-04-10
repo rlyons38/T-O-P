@@ -3,5 +3,16 @@
     font-family: Tahoma, Verdana, Geneva,sans-serif;
     font-size: 18px;
     color: #6D98BA;
-    margin: 0 auto;
-} 
+    margin: 0px auto;
+}
+
+body {
+    padding: 1%;
+}
+
+#title {
+    font-size: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 15px auto;
+}
