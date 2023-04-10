@@ -16,3 +16,7 @@ body {
     text-decoration-line: underline;
     margin: 15px auto;
 }
+
+.intro {
+    padding: 1%;
+}
