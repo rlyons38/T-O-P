@@ -23,7 +23,7 @@ body {
 
     border-style: solid;
     border-width: medium;
-    border-color: coral;
+    border-color: #FFBC42;
 }
 
 body div {
@@ -31,5 +31,5 @@ body div {
 
     border-style: solid;
     border-width: medium;
-    border-color: coral;
+    border-color: #FFBC42;
 }
