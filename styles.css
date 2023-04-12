@@ -3,17 +3,14 @@
     font-family: Tahoma, Verdana, Geneva,sans-serif;
     font-size: 18px;
     color: #6D98BA;
-    margin: 0px auto;
+}
 
-
-    /* Temporary border to envisage spaces. To help with learning layouts and flex-box tools. */
+    /* Temporary border to envisage spaces. To help with learning layouts and flex-box tools.
     
-    /*
     border-style: solid;
     border-width: medium;
-    border-color: coral;
-    */
-}
+    border-color: coral; */
+    
 
 body {
     padding: 1%;
@@ -23,7 +20,6 @@ body {
     font-size: 28px;
     text-align: center;
     text-decoration-line: underline;
-    margin: 15px auto;
 
     border-style: solid;
     border-width: medium;
